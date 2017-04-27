@@ -1,0 +1,206 @@
+
+/* General Styling for Body Styling For Map Element */
+html, body {
+	height: 100%;
+	width: 100%;
+	padding-top: 2.1em;
+	background-color: #F5F5F5;
+}
+
+/* Header */
+
+header {
+	box-shadow: 0.5px 0.5px 0.5px #888888;
+}
+header h3 {
+	color: #055e86;
+	font-weight: bold;
+	margin-left: 1.3%;
+}
+
+
+/* Styling For Map Element */
+#mapid {
+	height: 100%; 
+	width: 75%;
+	float: right;
+	padding: 0.3em;
+	border: thin solid #888888;
+}
+
+
+/* Styling For Main Text Section */
+section {
+	margin-left: 2%;
+	width: 25%;
+}
+
+#searchbox{
+	margin-top: 1.5em;
+	margin-bottom: 2em;
+}
+
+/* Styling Radio Buttons */
+
+.radio {
+  margin: 0.5rem;
+  margin-left: -4%;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+.radio input[type="radio"] {
+  position: relative;
+  opacity: 0;
+}
+.radio input[type="radio"] + .radio-label:before {
+  content: '';
+  background: #f4f4f4;
+  border-radius: 100%;
+  border: 1px solid #b4b4b4;
+  display: inline-block;
+  width: 1.4em;
+  height: 1.4em;
+  position: relative;
+  top: -0.2em;
+  margin-right: 1em;
+  vertical-align: top;
+  cursor: pointer;
+  text-align: center;
+  transition: all 250ms ease;
+}
+.radio input[type="radio"]:checked + .radio-label:before {
+  background-color: #3197EE;
+  box-shadow: inset 0 0 0 4px #f4f4f4;
+}
+
+/* Styling Slider and related elements */
+#slider {
+	padding: 0.2em;
+	margin-left: 2%;
+	width: 20%;
+	margin-bottom: 1em;
+}
+
+#sliderYear {
+	font-size: 1.5em;
+	font-weight: normal;
+	text-align: center;	
+	margin-right: 13%;
+}
+#slider-value {
+	font-weight: bold;
+}
+
+/* Styling Output  */
+#outputContainer {
+	margin-left: 2%;
+	width: 22%;
+}
+
+#output{
+	text-align: center;
+}
+
+#output img {
+	width: 30%;
+	height: 30%;
+	padding: 0.5em;
+}
+#output h4{
+	font-size: 1.3em;
+}
+
+#output h3{
+	text-align: center;
+	
+}
+
+
+
+/* Styling for Elements on LeafletJS Map */
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #777;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+
+/* Extra Styling For Slider */
+
+.flat-slider.ui-corner-all,
+.flat-slider .ui-corner-all {
+  border-radius: 0;
+}
+
+.flat-slider.ui-slider {
+  border: 0;
+  background: #c0c4d1;
+  border-radius: 7px;
+}
+
+.flat-slider.ui-slider-horizontal {
+  height: 6px;
+}
+
+.flat-slider.ui-slider-vertical {
+  height: 15em;
+  width: 6px;
+}
+
+.flat-slider .ui-slider-handle {
+  width: 20px;
+  height: 20px;
+  background: #337ab7;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.flat-slider.ui-slider-horizontal .ui-slider-handle {
+  top: 50%;
+  margin-top: -10px;
+}
+
+.flat-slider.ui-slider-vertical .ui-slider-handle {
+  left: 50%;
+  margin-left: -10px;
+}
+
+.flat-slider .ui-slider-handle:hover {
+  opacity: .8;
+}
+
+.flat-slider .ui-slider-range {
+  border: 0;
+  border-radius: 7;
+  background: #f99;
+}
+
+.flat-slider.ui-slider-horizontal .ui-slider-range {
+  top: 0;
+  height: 6px;
+}
+
+.flat-slider.ui-slider-vertical .ui-slider-range {
+  left: 0;
+  width: 6px;
+}
