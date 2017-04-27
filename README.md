@@ -1,6 +1,7 @@
 
 # Welcome to the Summer Olympics LeafletJS Map
-Explore data about the host cities for every summer Olympic Games from 1896-2016
+Explore data about the host cities for every summer Olympic Games from 1896-2016. Created using HTML, CSS, JavaScript, PHP and SQL
+
 
 
 Below Are Screenshots Of The Site
